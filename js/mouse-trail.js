@@ -4,10 +4,10 @@
  */
 function initMouseTrail() {
     const config = {
-        maxDots: 8,        // 圆点数量
-        dotSize: 4,        // 圆点大小
-        fadeSpeed: 0.15,   // 淡出速度
-        color: 'rgba(100, 149, 237, 0.6)' // 柔和的蓝色
+        maxDots: 6,        // 圆点数量
+        dotSize: 6,        // 圆点大小
+        fadeSpeed: 0.20,   // 淡出速度
+        color: 'rgba(253, 138, 44, 0.6)' // 柔和的蓝色
     };
     
     // 创建容器
