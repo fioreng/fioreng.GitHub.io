@@ -1,0 +1,34 @@
+.footer-other {
+    background-image: url('https://cdn.jsdelivr.net/gh/fioreng/LmageLink/img/%E6%97%A5%E5%87%BA.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    padding: 20px 0
+}
+
+.footer-other::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .3);
+    z-index: 1
+}
+
+.footer-other .footer-copyright,
+.footer-other .footer_custom_text {
+    position: relative;
+    z-index: 2;
+    color: #fff
+}
+
+.anchor {
+    display: none !important
+}
+
+#web_bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+}
